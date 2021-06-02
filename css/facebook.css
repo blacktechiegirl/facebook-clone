@@ -1,0 +1,180 @@
+body{
+    margin: 0;
+    background: #f0f2f5;
+    width: 100%;
+}
+
+.container{
+    width: 1000px;
+    height: 68%;
+    position: absolute;
+    display: flex;
+    left: 50%;
+    transform: translateX(-50%);
+    justify-content: space-between;
+    align-items: center;
+    
+    }
+
+.message{
+    width: 368px;
+    top: 10px;
+    transform: translateY(-50%);
+    position: relative;
+    margin-top: 30%;
+    }
+    
+.message .img{
+    width: 600px;
+    height: 106px;
+    margin: -28px;
+    padding: 30px;
+}
+
+
+.message .text{
+    font-size: 28px;
+    line-height: 28px;
+    width: 500px;
+    font-family: SFProDisplay-Regular, Helvetica, Arial, sans-serif;
+}
+
+.logindiv{
+    width: 390px;
+    height: 380px;
+    background: rgb(255, 255, 255);
+    display: grid;
+    padding:10px ;
+    position: relative;
+    text-align: center;
+    border-radius: 6px;
+    box-shadow: 0 1px 8px rgba(0, 0, 0, 0.4);
+    margin-top: 20%;
+    }
+
+#uname{
+    width: 340px;
+    padding: 17px 16px;
+    outline: none;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+    
+}
+
+#pass{
+    width: 340px;
+    outline: none;
+    border: 0;
+    border-radius: 6px;
+    border: 1px solid #dddfe2;
+    font-size: 17px;
+    margin-bottom: 25px;
+    padding: 17px 16px;
+}
+
+#log{
+    cursor: pointer;
+    width: 373PX;
+    padding:13px ;
+    color: #fff;
+    background: #1877f2;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+    font-size: 22px;
+    font-weight: 600;
+    margin-bottom: 15px;
+   
+
+}
+
+#fpass{
+    margin-top: -10px;
+    padding: 20px;
+    border-bottom: 1px solid #dadde1;
+    font-size: 12px;
+    margin-bottom: 25px;
+    color: #1877f2;
+    font-size: 18px;
+    font-weight: 500;
+    font-family: inherit;
+    cursor: pointer
+}
+
+#signup{
+    width: 60%;
+    padding: 12px;
+    background: #42b72a;
+    border: none;
+    color: #fff;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 6px;
+    outline: none;
+    line-height: 27px;
+    cursor: pointer;
+}
+
+.message2{
+    float: right;
+    margin-top: 37%;
+    margin-right: 20%;
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 16px;
+}
+.footer{
+    
+    position: absolute;
+    top:100%;
+    width:100%;
+    background-color:white;
+    height: 25%;
+    font-size:15px;
+    
+    
+    
+}
+.message3{
+    border-bottom: 1px solid #c4c2c2;
+    margin-bottom: 8px;
+    margin-top: 10px;
+    margin-left: 15%;
+    margin-right: 15%;
+
+}
+
+.message3 a{
+    display: inline-block;
+    color: #385898;
+    cursor: pointer;
+    font-family: inherit;
+    margin-right: 1%;
+    margin-bottom: 10px;
+    text-decoration: none;
+    
+    
+}
+
+
+.message4{
+    margin-left: 15%;
+    margin-right: 15%;
+}
+.message4 a{
+    display: inline-block;
+    margin-right: 3%;
+    color: #385898;
+    cursor: pointer;
+    font-family: inherit;
+    margin-bottom: 5px;
+    text-decoration: none;
+}
+
+.message4 p{
+    font-size: 14px;
+    color: #737373;
+}
